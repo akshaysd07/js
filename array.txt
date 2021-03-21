@@ -1,0 +1,22 @@
+ARRAY
+
+	var a=[1,2,3,4,5];
+
+	var b=[...a];
+
+	var c=a;
+
+	a[0]=100;
+
+	console.log(a);
+
+	console.log(b);
+
+	console.log(c);
+
+OBJECT
+
+	let obj={name:'ram'};
+    let admin= obj;
+    admin.name ='shyam';
+    alert(obj.name);

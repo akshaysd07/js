@@ -1,0 +1,21 @@
+
+COPY BY VALUE:
+In a primitive data-type when a variable is assigned a value we can imagine that a box is created in the memory. 
+This box has a sticker attached to it i.e. the variable name. Inside the box the value assigned to the variable is stored.
+ 
+ex, var x=10;
+    var y=20;
+    var a=x;
+    var b=y;
+
+COPY BY REFERECE:
+In case of a non-primitive data-type the values are not directly copied. 
+When a non-primitive data-type is assigned a value a box is created with a 
+sticker of the name of the data-type. 
+However, the values it is assigned is not stored directly in the box. 
+The language itself assigns a different memory location to store the data.
+
+ex. let user={name:'ram'};
+    let admin= user;
+    admin.name ='shyam';
+    alert(user.name);
